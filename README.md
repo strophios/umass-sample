@@ -1,2 +1,5 @@
 # umass-sample
-Code sample
+
+For my code sample I'm providing the core of a text processing pipeline (`sample_processing_pipeline.R`) I built in the current postdoc. This was used to go from the texts of (in some cases *extremely* poorly) OCR'd PDF documents to workable, clean, text. Ultimately, references and citations were then extracted from those texts in order to create the citation network in my writing sample. 
+
+The pipeline here provides the higher level logic, but the detailed processing is largely in the script containing supporting functions, which I have also provided (`sample_processing_pipeline_functions.R`). I also included `sample_gen_pub_texts.R`, a wrapper for the pipeline which documents the inputs, outputs, and environment level variables. I understand that this is a lot for a single sample, but hopefully it's easy enough to follow to be legible at high level, at least. The documentation for the pipeline itself and all functions is contained within the code files. 
